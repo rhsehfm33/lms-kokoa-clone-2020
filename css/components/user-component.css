@@ -52,3 +52,22 @@
   margin-bottom: 10px;
   display: block;
 }
+
+/* .user-component--list .user-component {
+  padding-bottom: 10px;
+}
+
+.user-component--list .user-component:not(:first-child) {
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+} */
+
+.user-component--list .user-component {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.user-component--list .user-component:first-child {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
