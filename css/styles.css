@@ -25,6 +25,10 @@ body {
   height: 1000vh;
 }
 
+body header {
+  margin-top: var(--status-bar-height);
+}
+
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
