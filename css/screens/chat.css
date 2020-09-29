@@ -117,16 +117,16 @@
   border-radius: 20px;
 }
 
-.reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
   right: -3px;
-  top: 2px;
+  top: 5.5px;
 }
 
 .reply__column:last-child > i {
+  position: absolute;
   right: 40px;
-  top: 10px;
+  top: 12.5px;
 }
 
 .reply__column button {
