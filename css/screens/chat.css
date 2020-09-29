@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 1100vh;
+  height: 500vh;
 }
 
 #chat-screen .status-bar {
@@ -15,6 +15,28 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
+}
+
+@keyframes fadeInFromLeft {
+  from {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInFromRight {
+  from {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }
 
 .main-chat {
@@ -37,6 +59,7 @@
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+  animation: fadeInFromLeft 0.8s ease-in-out;
 }
 
 .message-row img {
@@ -72,6 +95,7 @@
 }
 
 .message-row--own {
+  animation: fadeInFromRight 0.8s ease-in-out;
   justify-content: flex-end;
 }
 
