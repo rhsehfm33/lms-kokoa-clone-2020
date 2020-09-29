@@ -1,0 +1,27 @@
+#no-landscape {
+  position: absolute;
+  z-index: 99;
+  height: 100%;
+  background-color: var(--yellow);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+@media (orientation: landscape) {
+  .friends-screen,
+  .main-screen,
+  .reply,
+  .nav {
+    visibility: hidden;
+  }
+}
+
+@media (orientation: portrait) {
+  #no-landscape {
+    display: none;
+  }
+}
