@@ -11,16 +11,18 @@
   top: 0;
 }
 
-@media (orientation: landscape) {
+@media screen and (orientation: landscape) {
+  .welcome-header,
   .friends-screen,
   .main-screen,
   .reply,
   .nav {
+    margin: 0;
     visibility: hidden;
   }
 }
 
-@media (orientation: portrait) {
+@media screen and (orientation: portrait) {
   #no-landscape {
     display: none;
   }

@@ -18,10 +18,12 @@
 }
 
 @media screen and (min-width: 645px) {
+  .welcome-header,
   .friends-screen,
   .main-screen,
   .reply,
   .nav {
+    margin: 0;
     visibility: hidden;
   }
 }
