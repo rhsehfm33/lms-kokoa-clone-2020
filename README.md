@@ -1,3 +1,26 @@
-# Kokoa Clone 2020 Update
+# Kokoa Clone 2020 August-October
 
-project started 2020/09/24 by lms
+---
+
+## 프로젝트 실행 동기
+
+> HTML/CSS 공부를 하게 되면서, 이론 공부와 실습을 동시에 진행하고 싶었습니다. 인터넷으로 알아본 결과,
+> 니콜라스 선생님이 클론 코딩을 통해 학생들을 교육시킨다는 것을 알게 되었고, 저도 이 클론 코딩 강의 수료하게
+> 됐습니다.
+
+---
+
+## 프로젝트 개요
+
+> HTML/CSS 를 이용해 카카오톡 앱의 화면을 가능한한 최대한 똑같이 구현하는 프로젝트입니다. 이에 대해 참조 모델이
+> 된 화면 자료는, screenshots 폴더에 첨부되어 있습니다. 다만, Javascript까지 활용하면서 클론을 한 것은 아니었기에, 그대로 클론하는 것은 밋밋한 점이 있었습니다. 그래서, CSS를 통해 animation/transition을 구현해 좀 더 홈페이지가 살아있는 듯한 느낌을 줬습니다.
+
+---
+
+## 구현된 animation/transition
+
+1. 카카오톡 진입시에 카카오톡 splash-screen이 2초 동안 나오고 fade out 되는 animation 구현
+2. 밑의 nav 목록을 이동할 때마다, nav에 있는 4개의 아이콘이 순차적으로 제 위치로 올라오는 animation 구현
+3. open-chat의 BTS의 '하트' 모양을 탭할 시, 심장이 뛰는 듯이 콩닥 콩닥 거리는 animation 구현
+4. 채팅방에 들어왔을 때, 아래에 있는 채팅 입력 박스에 focus되면, 채팅 입력 박스가 좌우로 길어지며, 메세지 전송을 제외한 아이콘은 fade-out 되면서 밑으로 사라짐
+5. 맨 처음 로그인 화면에서, input id, input pw 에 focus되면, 밑에 있는 border가 노란색으로 천천히 색깔이 바뀜
