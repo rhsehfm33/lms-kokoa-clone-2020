@@ -30,10 +30,6 @@ body {
   height: 100vh;
 }
 
-body header {
-  margin-top: var(--status-bar-height);
-}
-
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
