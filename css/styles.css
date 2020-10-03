@@ -22,7 +22,6 @@
 
 /* Cover Screens */
 @import "components/no-mobile.css";
-@import "components/no-landscape.css";
 
 body {
   position: relative;
