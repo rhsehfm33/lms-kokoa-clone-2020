@@ -128,8 +128,7 @@ table {
   border-spacing: 0;
 }
 
-input:focus,
-textarea:focus {
+*:focus {
   outline: none;
 }
 
